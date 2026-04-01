@@ -1,0 +1,5 @@
+relator_form:
+  version: 1.x
+  css:
+    theme:
+      css/relator-options.css: {}

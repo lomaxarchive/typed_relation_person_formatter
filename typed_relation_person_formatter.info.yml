@@ -1,0 +1,8 @@
+name: Typed Relation Person Formatter
+type: module
+description: Provides a custom formatter for typed_relation fields that modifies name and relator display.
+core_version_requirement: ^10 || ^11
+package: Custom
+dependencies:
+  - drupal:taxonomy
+
