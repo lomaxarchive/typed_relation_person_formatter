@@ -1,0 +1,24 @@
+{
+    "name": "lomaxarchive/typed_relation_person_formatter",
+    "type": "drupal-module",
+    "description": "Provides a custom formatter for typed_relation fields that modifies name and relator display.",
+    "license": "GPL-2.0-or-later",
+    "require": {
+        "drupal/core": "^10 || ^11",
+        "drupal/typed_relation": "*"
+    },
+    "require-dev": {
+        "drupal/core-dev": "^10 || ^11"
+    },
+    "extra": {
+        "drupal": {
+            "version": "1.0.0",
+            "datestamp": "1744588800"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Drupal\\typed_relation_person_formatter\\": "src/"
+        }
+    }
+}
