@@ -4,11 +4,13 @@
     "description": "Provides a custom formatter for typed_relation fields that modifies name and relator display.",
     "license": "GPL-2.0-or-later",
     "require": {
-        "drupal/core": "^10 || ^11",
-        "drupal/typed_relation": "*"
+        "drupal/core": "^10 || ^11"
     },
     "require-dev": {
         "drupal/core-dev": "^10 || ^11"
+    },
+    "suggest": {
+        "drupal/typed_relation": "Provides the typed_relation field type that this formatter is built for."
     },
     "extra": {
         "drupal": {
