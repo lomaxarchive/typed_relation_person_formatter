@@ -12,7 +12,7 @@ use Drupal\taxonomy\Entity\Term;
  *
  * @FieldFormatter(
  *   id = "typed_relation_person",
- *   label = @Translation("Typed Relation Person Formatter"),
+ *   label = @Translation("Preferred Name Formatter"),
  *   field_types = {
  *     "typed_relation"
  *   }
